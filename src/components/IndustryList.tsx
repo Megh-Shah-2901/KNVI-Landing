@@ -20,17 +20,17 @@ const IndustryList: React.FC = () => {
         <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
           From events and healthcare to logistics and retail, Knvi adapts to your workflows and systems.
         </p>
-        
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3 md:gap-4">
+
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-3 md:gap-4">
           {industries.map((industry, index) => (
             <div
               key={industry}
-              className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center border border-white/20 hover:bg-white/15 transition-all duration-300"
+              className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-4 text-center border border-white/20 hover:bg-white/15 transition-all duration-300 min-h-[60px] flex items-center justify-center"
               style={{
                 animationDelay: `${0.4 + index * 0.1}s`,
               }}
             >
-              <span className="text-white font-medium text-sm md:text-base">
+              <span className="text-white font-medium text-xs md:text-sm xl:text-base leading-tight">
                 {industry}
               </span>
             </div>
