@@ -23,7 +23,7 @@ const EmailCapture: React.FC<EmailCaptureProps> = ({ className = '' }) => {
     
     try {
       // TODO: Replace with your actual Formspree form ID
-      const response = await fetch('https://formspree.io/f/your_form_id', {
+      const response = await fetch('https://formspree.io/f/myzpolvb', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
