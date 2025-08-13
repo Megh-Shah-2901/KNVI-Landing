@@ -21,7 +21,7 @@ const Index = () => {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 flex flex-col items-center justify-center px-6 -mt-16">
+      <main className="flex-1 flex flex-col items-center justify-center px-6 pt-8">
         {/* Hero Section */}
         <section className="w-full max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
           <div className="space-y-6">
