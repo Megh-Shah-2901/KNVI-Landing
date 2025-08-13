@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: mode === 'development' ? '/' : '/knvi-coming-soon-hub/',
+  base: mode === '/',
   plugins: [
     react(),
     mode === 'development' &&
